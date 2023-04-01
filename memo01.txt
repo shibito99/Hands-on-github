@@ -1,0 +1,22 @@
+99shibito99@gmail.com
+
+kenichi-furuya
+
+git config --global user.name "kenichi-furuya"
+git config --global user.email "99shibito99@gmail.com"
+
+ssh-keygen -t ed25519 -C "99shibito99@gmail.com"
+
+
+echo "# Hands-on-github" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:shibito99/Hands-on-github.git
+git push -u origin main
+
+git remote add origin git@github.com:shibito99/Hands-on-github.git
+git branch -M main
+git push -u origin main
+
