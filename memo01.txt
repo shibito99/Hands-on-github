@@ -2,7 +2,6 @@
 Gitファイルアップロード手順参照
 ========================================
 99shibito99@gmail.com
-
 kenichi-furuya
 
 git config --global user.name "kenichi-furuya"
@@ -22,4 +21,21 @@ git push -u origin main
 git remote add origin git@github.com:shibito99/Hands-on-github.git
 git branch -M main
 git push -u origin main
+
+
+
+git ブランチ作成方法
+===================================================
+ファイル追加後
+:git branc 何を主性したのか追記(日本語だめ)
+:git checkout ブランチ名/説明文など
+:git branch	//ブランチに切り替える
+
+後はいつも通り
+
+:git add .
+:git commit -m "説明文"
+:git log --oneline
+:git push origin head(もしくはブランチ名/説明文)
+===================================================
 
